@@ -1,0 +1,140 @@
+@charset "UTF-8";
+body {
+	font: 14px "상상토끼 꽃길";
+	background-image: url("../project_img/77.jpg");
+	
+}
+
+.container {
+	position: relative; /* 절대좌표 */
+	width: 960px;
+	margin: 0 auto;
+	background-color: skyblue;
+	border: 1px solid #e7e7e7;
+	background-position: center top;
+	opacity: 0.9;
+}
+
+header {
+	position: relative; /* 상대좌표 */
+	height: 280px;
+	background-position: left top;
+	background-image: url(../project_img/3.jpg);
+}
+
+header h1 {
+	position: absolute;
+	right: 20px;
+	bottom: 70px;
+	font-size: 50px;
+	color: white;
+	text-shadow: 1px 2px 2px #000;
+}
+
+header h2 {
+	position: absolute;
+	right: 20px;
+	bottom: 30px;
+	font-size: 30px;
+	color: #FF0;
+	text-shadow: 0px 1px 1px #000;
+}
+
+.navi {
+	position: relative;
+	background: skyblue;
+	margin-top: -15px;
+	width: 960px;
+	height: 60px; 
+}
+
+.navi ul {
+	list-style: none; /* 불릿제거 */
+	height: 40px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.navi ul li {
+	display: inline;
+	float: left;
+	font-size: 20px;
+	color: white;
+}
+
+.navi a, .navi a:visited {
+	padding: 5px 5px 10px 28px;
+	display: block;
+	color: #fff;
+	width: 150px;
+	text-decoration: none;
+}
+
+.navi a:hover, .navi a:active, .navi a:focus {
+	text-shadow: 0px 2px 2px #000;
+	color: #fc0;
+}
+
+.sidebar {
+	/* 베너 위치 고정 */
+/* 	margin-left: 64%; */
+/* 	position: fixed; */
+/* 	top: 10%; */
+	float: right;
+	width: 200px;
+	height: 765px;
+
+	background-color: #dfd;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+}
+
+.sidebar h3 {
+	font-size: 25px;
+	text-align: center;
+}
+
+.sidebar img {
+	margin-bottom: 5px;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+.content {
+	background-color: #ffffff;
+	padding-top: 5px;
+	padding-left: 10px;
+	width: 720px;
+	float: left;
+}
+
+.content h2 {
+	font-size: 30px;
+}
+
+.content h3 {
+	font-size: 20px;
+}
+
+header, section, footer, aside, article, figure {
+	display: block;
+}
+
+.banner {
+	margin: 0 10px 15px 10px;
+	padding: 0;
+}
+
+
+footer {
+	width: 967px;
+	padding: 20px 0;
+	background-color: #704545;
+	text-align: center;
+	color: #fff;
+	clear: both;
+	font-size: 15px;
+}
+
